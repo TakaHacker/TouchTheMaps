@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TouchTheMaps</string>
+    <string name="chama">Chama</string>
+    <string name="activity">activity</string>
+    <string name="botão">Muda de Tela</string>
+    <string name="botaoprincipal">Muda de Tela</string>
+    <string name="TextView">Activity</string>
+    <string name="segundoTextView">Outra Tela</string>
+</resources>
