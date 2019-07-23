@@ -23,7 +23,7 @@
         app:layout_constraintVertical_bias="0.505" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/tela"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -42,7 +42,7 @@
         android:importantForAutofill="no" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/nomeCapital"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -58,7 +58,7 @@
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/tela"
         app:layout_constraintVertical_bias="0.127"
         android:autofillHints="" />
 </android.support.constraint.ConstraintLayout>

@@ -11,12 +11,21 @@ public class TerceiraActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_terceira);
+
+
+        Intent intent = getIntent();
+        Bundle pacote = intent.getExtras();
+
+        String nomeEstado = pacote.getString("estado");
+        String nomeCapital = pacote.getString("capital");
+
+        TextView campoEstado = findViewById(R.id.nomeEstado);
+        TextView campoCapital = findViewById(R.id.nomeCapital);
+
+        campoEstado.setText(nomeEstado);
+        campoCapital.setText(nomeCapital);
+
+
+
     }
-
-    Intent intent = getIntent();
-    Bundle bundle = intent.getExtras();
-    String editText = bundle.getString("nameField");
-    TextView nameField = findViewById(R.id.editText);
-
-
 }

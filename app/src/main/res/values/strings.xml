@@ -19,4 +19,10 @@
     <string name="nomeEstado">Estado</string>
     <string name="enviar">ENVIAR</string>
     <string name="pergunta">Onde você mora?</string>
+
+    <string-array name="estadosConhecidos">
+        <item> Paraná </item>
+        <item> Santa Catarina </item>
+        <item> Rio Grande do Sul </item>
+    </string-array>
 </resources>
