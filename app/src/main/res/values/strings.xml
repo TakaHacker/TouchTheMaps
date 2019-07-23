@@ -6,4 +6,17 @@
     <string name="botaoprincipal">Muda de Tela</string>
     <string name="TextView">Activity</string>
     <string name="segundoTextView">Outra Tela</string>
+    <string name="botaoregistrar">Registrar</string>
+    <string name="nomePais">Nome do País</string>
+    <string name="nomeCapital">Capital</string>
+    <string name="mensagem">Opa, tudo bem?</string>
+    <string name="mensagem2">Sou novo em Curitiba e gostaria de saber em qual município você mora.</string>
+    <string name="trocatela">Informar</string>
+    <string name="trocaAtela">AJUDAR</string>
+    <string name="mensagem3">Poderia me ajudar a conhecer mais do Brasil?</string>
+    <string name="nomeLocal">Onde você mora?</string>
+    <string name="nome">Nome</string>
+    <string name="nomeEstado">Estado</string>
+    <string name="enviar">ENVIAR</string>
+    <string name="pergunta">Onde você mora?</string>
 </resources>
