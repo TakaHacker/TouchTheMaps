@@ -17,7 +17,7 @@ public class SegundaActivity extends AppCompatActivity {
    public void  enviaNomes (View v){
        Intent intent = new Intent(this, TerceiraActivity.class);
        Bundle bundle = new Bundle();
-       TextView textView = (TextView) findViewById(R.id.editText);
+       TextView textView = findViewById(R.id.editText);
        bundle.putString("nameField", textView.getText().toString());
        intent.putExtras(bundle);
        startActivity(intent);
