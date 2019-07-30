@@ -25,6 +25,8 @@ public class SegundaActivity extends AppCompatActivity {
                 Toast.LENGTH_SHORT
         ).show();
 
+
+        //DEFINIÇÃO DA DINÂMICA DA LISTA//
         AdapterView.OnItemClickListener itemClickListener = new AdapterView.OnItemClickListener(){
             @Override
             public void onItemClick(AdapterView<?> listView, View itemView, int position, long id) {
@@ -53,7 +55,7 @@ public class SegundaActivity extends AppCompatActivity {
     }
 
    public void  enviaNomes (View v) {
-
+        // CRIAÇÃO DA CAIXA DE DIÁLOGO PARA CONFIRMAÇÃO//
        AlertDialog.Builder alerta = new AlertDialog.Builder(this);
        alerta.setTitle("Prosseguir?");
        alerta.setMessage("Verifique se os dados estão corretos");
